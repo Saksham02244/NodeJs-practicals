@@ -2,7 +2,7 @@
 
 This repository contains my Node.js practical programs and exercises.
 
-##📚 Topics Covered
+#📚 Topics Covered
 - Basic Node.js programs
 - Modules
 - File System
@@ -10,5 +10,5 @@ This repository contains my Node.js practical programs and exercises.
 - HTTP Server
 - MySQL database Connection
 
-##🎯 Purpose
+#🎯 Purpose<br>
 This repository is created to practice and improve my Node.js skills.
