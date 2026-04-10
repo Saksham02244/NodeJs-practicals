@@ -1,16 +1,16 @@
-# NodeJs Practicals 🚀
+# 🚀 NodeJs Practicals
 
-This repository contains my Node.js practical programs and exercises.
+Welcome to my Node.js practical repository!
 
-## 📚 Topics Covered
-- Basic Node.js programs
-- Modules
-- File System
-- HTTP Server
-- MySQL Connection
+## 📌 What’s Inside
+✔ Basic Programs  
+✔ Modules  
+✔ File Handling  
+✔ Server Creation  
+✔ Database (MySQL)
 
-## 🎯 Purpose
-This repository is created to practice and improve my Node.js skills.
+## 🎯 Goal
+To strengthen my backend development skills using Node.js.
 
-## 👨‍💻 Author
-Saksham Sable
+---
+👨‍💻 *Created by Saksham Sable*
