@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 
-// Create connection
+// create connection
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
     database: "Arjun"
 });
 
-// Connect to MySQL
+// connect to mysql
 connection.connect((err) => {
     if (err) {
         console.error("Connection failed:", err.message);
@@ -17,7 +17,7 @@ connection.connect((err) => {
 
     console.log("Connected to MySQL");
 
-    // SQL query
+    // sql query
     const sql = `
         CREATE TABLE IF NOT EXISTS STUDENT (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -25,7 +25,7 @@ connection.connect((err) => {
         )
     `;
 
-    // Execute query
+    // execute query
     connection.query(sql, (err, result) => {
         if (err) {
             console.error("Error creating table:", err.message);
@@ -34,7 +34,7 @@ connection.connect((err) => {
 
         console.log("Table created successfully");
 
-        // Close connection (best practice)
+        // close connection(good practice)
         connection.end();
     });
 });
